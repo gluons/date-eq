@@ -1,0 +1,32 @@
+{
+  "name": "date-eq",
+  "version": "1.0.0",
+  "description": "Extensive date equality checker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/date-eq.git"
+  },
+  "keywords": [
+    "date",
+    "equality",
+    "compare"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/date-eq/issues"
+  },
+  "homepage": "https://github.com/gluons/date-eq",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "nvl": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
