@@ -1,9 +1,22 @@
 {
-	"extends": "gluons/ts",
-	"parserOptions": {
-		"project": "./tsconfig.json"
-	},
-	"rules": {
-		"@typescript-eslint/unbound-method": "off"
-	}
+	"extends": "gluons/esnext",
+	"overrides": [
+		{
+			"files": ["*.ts"],
+			"extends": "gluons/ts",
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			},
+			"rules": {
+				"@typescript-eslint/unbound-method": "off"
+			}
+		},
+		{
+			"files": ["test/*.ts"],
+			"extends": "gluons/ts",
+			"parserOptions": {
+				"project": "./tsconfig.test.json"
+			}
+		}
+	]
 }
