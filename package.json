@@ -2,7 +2,11 @@
   "name": "date-eq",
   "version": "1.0.0",
   "description": "Extensive date equality checker.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "del-cli dist/",
     "build": "tsc",
