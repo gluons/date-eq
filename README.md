@@ -86,22 +86,22 @@ Return `true` if `date1`'s month is equal to `date2`'s month.
 Return `true` if `date1`'s year is equal to `date2`'s year.
 
 ### hours(date1, date2)
-**Alias:** `hrs([date2])`
+**Alias:** `hrs(date1, date2)`
 
 Return `true` if `date1`'s hours is equal to `date2`'s hours.
 
 ### minutes(date1, date2)
-**Alias:** `min([date2])`
+**Alias:** `min(date1, date2)`
 
 Return `true` if `date1`'s minutes is equal to `date2`'s minutes.
 
 ### seconds(date1, date2)
-**Alias:** `sec([date2])`
+**Alias:** `sec(date1, date2)`
 
 Return `true` if `date1`'s seconds is equal to `date2`'s seconds.
 
 ### milliseconds(date1, date2)
-**Alias:** `ms([date2])`
+**Alias:** `ms(date1, date2)`
 
 Return `true` if `date1`'s milliseconds is equal to `date2`'s milliseconds.
 
