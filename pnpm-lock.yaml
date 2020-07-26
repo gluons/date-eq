@@ -4,7 +4,7 @@ devDependencies:
   '@babel/core': 7.10.5
   '@babel/preset-env': 7.10.4_@babel+core@7.10.5
   '@babel/preset-typescript': 7.10.4_@babel+core@7.10.5
-  '@gluons/prettier-config': 2.0.4_prettier@2.0.5
+  '@gluons/prettier-config': 2.0.6_prettier@2.0.5
   '@types/jest': 26.0.7
   '@types/node': 12.12.53
   '@typescript-eslint/eslint-plugin': 3.7.0_a7d792035c43f2b80bcf395c5516fe5c
@@ -968,14 +968,14 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==
-  /@gluons/prettier-config/2.0.4_prettier@2.0.5:
+  /@gluons/prettier-config/2.0.6_prettier@2.0.5:
     dependencies:
       prettier: 2.0.5
     dev: true
     peerDependencies:
       prettier: 1 - 2
     resolution:
-      integrity: sha512-ZdguuIijZI+XafIsl+kqb4OxXHsUHMl/wRdfax49DwlfWdYHhzgH7JxNDIyrSstKpd00KOB/vGbFz5WxizV5dg==
+      integrity: sha512-qjw+sN8qDL9Yg7B/EsmBow4AE0XbuqKJBwZ62BpibSOQGKfbUhZpGYrmLe9EYFRtVRQdJJiCmpXfDKz+3sesbw==
   /@istanbuljs/load-nyc-config/1.1.0:
     dependencies:
       camelcase: 5.3.1
@@ -5599,7 +5599,7 @@ specifiers:
   '@babel/core': ^7.10.5
   '@babel/preset-env': ^7.10.4
   '@babel/preset-typescript': ^7.10.4
-  '@gluons/prettier-config': ^2.0.4
+  '@gluons/prettier-config': ^2.0.6
   '@types/jest': ^26.0.7
   '@types/node': '12'
   '@typescript-eslint/eslint-plugin': ^3.7.0
